@@ -198,6 +198,14 @@ body {
   width: 270px;
 }
 
+.quality-icon {
+  box-sizing: content-box;
+  padding: 25px 100px;
+  margin-bottom: 30px;
+  background-color: var(--background-medium);
+  border-radius: 4px;
+}
+
 .quality-name {
   font-size: 14px;
   font-weight: 700;
