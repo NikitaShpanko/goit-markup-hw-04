@@ -5,6 +5,7 @@
   --background-light: #ffffff;
   --background-medium: #f5f4fa;
   --background-dark: #2f303a;
+  --svg-link-color: #afb1b8;
 }
 
 h1,
@@ -112,10 +113,6 @@ body {
   fill: currentColor;
 }
 
-/* .header-contact-icon:hover {
-  fill: currentColor;
-} */
-
 .header-contact-link {
   font-weight: 500;
   letter-spacing: 0.02em;
@@ -145,7 +142,8 @@ body {
       rgba(47, 48, 58, 0.4)
     ),
     url("../images/background.jpg");
-  /*background-color: #c4c4c4;*/ /*var(--background-dark); */
+  background-size: 1600px;
+  background-color: #c4c4c4; /*var(--background-dark); */
   text-align: center;
   padding: 200px 452px;
 }
@@ -244,23 +242,49 @@ body {
 
 .team-member {
   background-color: var(--background-light);
+  padding-bottom: 30px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+  text-align: center;
 }
 
 .team-member-name {
   font-size: 16px;
-  text-align: center;
-  margin: 30px 0 10px;
+  margin-top: 30px;
 }
 
 .team-member-job {
   font-size: 16px;
   color: var(--secondary-color);
-  text-align: center;
-  margin: 0;
-  padding: 0 0 30px;
+  margin-top: 10px;
+  margin-bottom: 16px;
+  /* padding: 0 0 30px; */
+}
+
+.social-link {
+  display: inline-block;
+  /* width: 44px;
+  height: 44px; */
+  padding: 12px;
+  border-radius: 50%;
+  fill: var(--svg-link-color);
+}
+
+.social-link:hover,
+.social-link:focus {
+  background-color: var(--highlight-color);
+  fill: var(--background-light);
+}
+
+.social-link + .social-link {
+  margin-left: 10px;
+}
+
+.social-link-icon {
+  display: block;
+  width: 20px;
+  height: 20px;
 }
 
 .filter-list {
