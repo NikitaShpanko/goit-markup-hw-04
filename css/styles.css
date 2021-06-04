@@ -201,7 +201,8 @@ body {
 }
 
 .about-us,
-.portfolio {
+.portfolio,
+.clients {
   background-color: var(--background-light);
   padding-top: 94px;
   padding-bottom: 94px;
@@ -238,6 +239,8 @@ body {
   text-align: center;
   margin: 0 0 50px 0;
 }
+
+/* ======= OUR TEAM ====== */
 
 .team {
   background-color: var(--background-medium);
@@ -276,9 +279,7 @@ body {
 }
 
 .social-link {
-  display: inline-block;
-  /* width: 44px;
-  height: 44px; */
+  display: block;
   padding: 12px;
   border-radius: 50%;
   fill: var(--svg-link-color);
@@ -299,6 +300,39 @@ body {
   width: 20px;
   height: 20px;
 }
+
+/* ====== CLIENTS ====== */
+
+.clients-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+  margin-bottom: 50px;
+}
+
+.client-link {
+  display: block;
+  padding: 16px 32px;
+  border: 1px solid var(--svg-link-color);
+  border-radius: 4px;
+  fill: var(--svg-link-color);
+}
+
+.client-link:hover,
+.client-link:focus {
+  border-color: var(--highlight-color);
+  fill: var(--highlight-color);
+}
+
+.client-icon {
+  width: 106px;
+  height: 60px;
+}
+
+/* ====== PORTFOLIO ====== */
 
 .filter-list {
   justify-content: center;
