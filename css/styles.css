@@ -258,8 +258,16 @@ body {
   font-size: 16px;
   color: var(--secondary-color);
   margin-top: 10px;
-  margin-bottom: 16px;
   /* padding: 0 0 30px; */
+}
+
+.social-link-list {
+  margin-top: 16px;
+  justify-content: center;
+}
+
+.social-link-list > li + li {
+  margin-left: 10px;
 }
 
 .social-link {
@@ -277,9 +285,9 @@ body {
   fill: var(--background-light);
 }
 
-.social-link + .social-link {
+/* .social-link + .social-link {
   margin-left: 10px;
-}
+} */
 
 .social-link-icon {
   display: block;
