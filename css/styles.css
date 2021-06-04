@@ -48,11 +48,11 @@ body {
 }
 
 .container {
-  width: 1600px;
+  width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 215px;
-  padding-right: 215px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .flex {
@@ -147,7 +147,8 @@ body {
   background-size: cover;
   background-color: #c4c4c4; /*var(--background-dark); */
   text-align: center;
-  padding: 200px 452px;
+  padding-top: 200px;
+  padding-bottom: 200px;
   max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
@@ -160,7 +161,10 @@ body {
   line-height: 1.36em;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  margin: 0 0 30px 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  max-width: 696px;
 }
 
 .order-button,
@@ -200,12 +204,9 @@ body {
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-.about-us,
-.portfolio,
-.clients {
+.qualities {
   background-color: var(--background-light);
   padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .quality {
@@ -232,6 +233,12 @@ body {
 .quality-explanation {
   color: var(--secondary-color);
   line-height: 1.714em;
+}
+
+.std-section {
+  background-color: var(--background-light);
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .about-us-title {
