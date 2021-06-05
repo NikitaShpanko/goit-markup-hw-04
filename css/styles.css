@@ -41,7 +41,7 @@ a {
 body {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
-  line-height: 1.172em;
+  line-height: 1.172;
   letter-spacing: 0.03em;
   color: var(--main-color);
   background: #e5e5e5;
@@ -188,18 +188,21 @@ body {
 }
 
 .order-button,
-.filter-button:hover {
+.filter-button:hover,
+.filter-button:focus {
   color: var(--background-light);
   background-color: var(--highlight-color);
 }
 
 .order-button:hover,
+.order-button:focus,
 .filter-button {
   color: var(--main-color);
   background-color: var(--background-medium);
 }
 
-.filter-button:hover {
+.filter-button:hover,
+.filter-button:focus {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
@@ -225,7 +228,7 @@ body {
 .quality-name {
   font-size: 14px;
   font-weight: 700;
-  line-height: 1.17;
+  line-height: 1.167;
   text-transform: uppercase;
   margin-bottom: 10px;
 }
@@ -241,8 +244,9 @@ body {
   padding-bottom: 94px;
 }
 
-.about-us-title {
+.std-title {
   font-size: 36px;
+  line-height: 1.167;
   text-align: center;
   margin: 0 0 50px 0;
 }
@@ -309,16 +313,6 @@ body {
 }
 
 /* ====== CLIENTS ====== */
-
-.clients-title {
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--main-color);
-  margin-bottom: 50px;
-}
 
 .client-link {
   display: block;
@@ -404,6 +398,7 @@ body {
 .footer-contact {
   color: var(--background-light);
   margin-top: 9px;
+  line-height: 1.714;
 }
 
 .footer-contact-link {
