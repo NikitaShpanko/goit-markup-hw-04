@@ -217,8 +217,12 @@ body {
 }
 
 .quality-icon {
-  padding-top: 25px;
-  padding-bottom: 25px;
+  /* padding-top: 25px;
+  padding-bottom: 25px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
   margin-bottom: 30px;
   background-color: var(--background-medium);
   border-radius: 4px;
@@ -302,10 +306,6 @@ body {
   fill: var(--background-light);
 }
 
-/* .social-link + .social-link {
-  margin-left: 10px;
-} */
-
 .social-link-icon {
   display: block;
   width: 20px;
@@ -315,8 +315,12 @@ body {
 /* ====== CLIENTS ====== */
 
 .client-link {
-  display: block;
-  padding: 16px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 92px;
+  /* padding: 16px 32px; */
   border: 1px solid var(--svg-link-color);
   border-radius: 4px;
   fill: var(--svg-link-color);
